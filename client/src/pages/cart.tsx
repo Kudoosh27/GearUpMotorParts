@@ -97,7 +97,7 @@ export default function Cart() {
   };
 
   const subtotal = calculateSubtotal();
-  const shipping = subtotal >= 4999 ? 0 : 499;
+  const shipping = subtotal >= 4999 ? 0 : 499; // Free shipping on orders over ₱4,999
   const tax = subtotal * 0.07; // 7% tax
   const total = subtotal + shipping + tax;
 
@@ -271,6 +271,12 @@ export default function Cart() {
               <h2 className="text-xl font-bold mb-4">Order Summary</h2>
               
               <div className="space-y-3 mb-6">
+                {/* Free shipping notification */}
+                {subtotal < 4999 && (
+                  <div className="mb-2 text-sm p-2 bg-blue-50 text-blue-700 rounded border border-blue-100">
+                    Add ₱{(4999 - subtotal).toFixed(2)} more to qualify for FREE shipping!
+                  </div>
+                )}
                 <div className="flex justify-between">
                   <span className="text-gray-600">Subtotal</span>
                   <span>₱{subtotal.toFixed(2)}</span>
