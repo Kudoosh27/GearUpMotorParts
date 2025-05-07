@@ -180,7 +180,7 @@ export default function ProductFilters({
                 />
                 <div className="flex items-center justify-between mt-2">
                   <div className="flex items-center border rounded-md overflow-hidden">
-                    <span className="bg-gray-100 px-2 py-1 text-sm">$</span>
+                    <span className="bg-gray-100 px-2 py-1 text-sm">₱</span>
                     <Input 
                       type="number"
                       className="w-16 border-0 focus-visible:ring-0"
