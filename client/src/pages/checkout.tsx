@@ -722,7 +722,7 @@ export default function Checkout() {
                         <div className="flex-1">
                           <h3 className="font-medium text-sm leading-tight">{item.product?.name}</h3>
                           <p className="text-sm text-gray-600">Qty: {item.quantity}</p>
-                          <p className="text-sm font-medium">${((item.product?.price || 0) * item.quantity).toFixed(2)}</p>
+                          <p className="text-sm font-medium">₱{((item.product?.price || 0) * item.quantity).toFixed(2)}</p>
                         </div>
                       </div>
                     ))}
@@ -735,7 +735,7 @@ export default function Checkout() {
               <div className="space-y-3 mb-6">
                 <div className="flex justify-between">
                   <span className="text-gray-600">Subtotal</span>
-                  <span>${subtotal.toFixed(2)}</span>
+                  <span>₱{subtotal.toFixed(2)}</span>
                 </div>
                 <div className="flex justify-between">
                   <span className="text-gray-600">Shipping</span>

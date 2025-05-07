@@ -63,7 +63,7 @@ export default function MiniCart() {
             />
             <div className="flex-1">
               <h4 className="text-sm font-medium">{item.product?.name}</h4>
-              <p className="text-gray-600 text-xs">{item.quantity} × ${item.product?.price.toFixed(2)}</p>
+              <p className="text-gray-600 text-xs">{item.quantity} × ₱{item.product?.price.toFixed(2)}</p>
             </div>
             <button 
               className="text-gray-500 hover:text-red-600"
@@ -78,7 +78,7 @@ export default function MiniCart() {
       <div className="p-4 border-t border-gray-200">
         <div className="flex justify-between mb-3">
           <span className="font-medium">Subtotal:</span>
-          <span className="font-medium">${calculateSubtotal()}</span>
+          <span className="font-medium">₱{calculateSubtotal()}</span>
         </div>
         <div className="space-y-2">
           <Link href="/checkout">
