@@ -1,4 +1,4 @@
-import { CheckCheck, Truck, HeadphonesIcon, RefreshCw } from 'lucide-react';
+import { CheckCheck, Truck, HeadphonesIcon, RefreshCw, MapPin, Clock, Mail } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 export default function StoreInfo() {
@@ -23,7 +23,7 @@ export default function StoreInfo() {
                 <Truck className="text-accent text-2xl mr-3 mt-1" />
                 <div>
                   <h3 className="font-medium mb-1">Fast Shipping</h3>
-                  <p className="text-sm text-neutral/80">Free shipping on orders over $99</p>
+                  <p className="text-sm text-neutral/80">Free shipping on orders over ₱4,999</p>
                 </div>
               </div>
               <div className="flex items-start">
@@ -41,8 +41,35 @@ export default function StoreInfo() {
                 </div>
               </div>
             </div>
+            
+            <div className="mt-8 space-y-4 mb-8">
+              <div className="flex items-start">
+                <MapPin className="text-accent text-2xl mr-3 mt-1" />
+                <div>
+                  <h3 className="font-medium mb-1">Our Location</h3>
+                  <p className="text-sm text-neutral/80">Km. 68, Camanchiles, Matanao Davao del Sur 8003, Philippines</p>
+                </div>
+              </div>
+              <div className="flex items-start">
+                <Clock className="text-accent text-2xl mr-3 mt-1" />
+                <div>
+                  <h3 className="font-medium mb-1">Store Hours</h3>
+                  <p className="text-sm text-neutral/80">Open Sunday to Friday: 8:00 AM - 6:00 PM</p>
+                  <p className="text-sm text-neutral/80">Closed on Saturdays</p>
+                </div>
+              </div>
+              <div className="flex items-start">
+                <Mail className="text-accent text-2xl mr-3 mt-1" />
+                <div>
+                  <h3 className="font-medium mb-1">Contact Us</h3>
+                  <p className="text-sm text-neutral/80">pacatangjox27@gmail.com</p>
+                  <p className="text-sm text-neutral/80">rovelynjoyreveche6@gmail.com</p>
+                </div>
+              </div>
+            </div>
+            
             <Button variant="accent" size="lg">
-              Find a Store Near You
+              Visit Our Store
             </Button>
           </div>
           <div className="order-1 md:order-2">

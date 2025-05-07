@@ -71,19 +71,19 @@ export default function Footer() {
             <ul className="space-y-3 text-neutral/80">
               <li className="flex items-start">
                 <MapPin className="h-5 w-5 mr-3 mt-1 flex-shrink-0" />
-                <span>123 Motor Avenue, Bike City, BC 12345</span>
+                <span>Km. 68, Camanchiles, Matanao Davao del Sur 8003, Philippines</span>
               </li>
               <li className="flex items-start">
                 <Phone className="h-5 w-5 mr-3 mt-1 flex-shrink-0" />
-                <span>(888) 555-0123</span>
+                <span>+63 945 123 4567</span>
               </li>
               <li className="flex items-start">
                 <Mail className="h-5 w-5 mr-3 mt-1 flex-shrink-0" />
-                <span>support@gearupautoparts.com</span>
+                <span>pacatangjox27@gmail.com<br/>rovelynjoyreveche6@gmail.com</span>
               </li>
               <li className="flex items-start">
                 <Clock className="h-5 w-5 mr-3 mt-1 flex-shrink-0" />
-                <span>Mon-Fri: 9AM-6PM<br/>Sat: 10AM-4PM<br/>Sun: Closed</span>
+                <span>Sun-Fri: 8AM-6PM<br/>Sat: Closed</span>
               </li>
             </ul>
           </div>
@@ -92,7 +92,8 @@ export default function Footer() {
         <div className="mt-12 pt-6 border-t border-neutral/20">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-neutral/70 text-sm mb-4 md:mb-0">
-              &copy; {new Date().getFullYear()} GearUp Auto Parts. All rights reserved.
+              &copy; {new Date().getFullYear()} GearUp Auto Parts. All rights reserved.<br/>
+              <span className="text-xs">Developed by JRov's Web Essentials</span>
             </p>
             <div className="flex space-x-4">
               <Link href="/privacy-policy" className="text-sm text-neutral/70 hover:text-white transition">Privacy Policy</Link>

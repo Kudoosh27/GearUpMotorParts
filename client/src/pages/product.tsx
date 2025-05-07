@@ -167,13 +167,13 @@ export default function Product() {
               </div>
               
               <div className="mb-6">
-                <span className="text-2xl font-bold text-primary">${product.price.toFixed(2)}</span>
+                <span className="text-2xl font-bold text-primary">₱{product.price.toFixed(2)}</span>
                 {product.originalPrice && (
-                  <span className="ml-2 text-gray-500 line-through">${product.originalPrice.toFixed(2)}</span>
+                  <span className="ml-2 text-gray-500 line-through">₱{product.originalPrice.toFixed(2)}</span>
                 )}
                 {product.originalPrice && (
                   <span className="ml-2 bg-primary/10 text-primary text-sm px-2 py-1 rounded">
-                    Save ${(product.originalPrice - product.price).toFixed(2)}
+                    Save ₱{(product.originalPrice - product.price).toFixed(2)}
                   </span>
                 )}
               </div>

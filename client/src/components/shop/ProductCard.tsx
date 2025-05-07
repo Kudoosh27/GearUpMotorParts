@@ -107,9 +107,9 @@ export default function ProductCard({ product }: ProductCardProps) {
         </div>
         <div className="flex justify-between items-center">
           <div>
-            <span className="text-primary font-bold">${product.price.toFixed(2)}</span>
+            <span className="text-primary font-bold">₱{product.price.toFixed(2)}</span>
             {product.originalPrice && (
-              <span className="text-gray-600 text-sm line-through ml-2">${product.originalPrice.toFixed(2)}</span>
+              <span className="text-gray-600 text-sm line-through ml-2">₱{product.originalPrice.toFixed(2)}</span>
             )}
           </div>
           <div className={`text-sm ${product.inStock ? 'text-success' : 'text-gray-600'} flex items-center`}>
