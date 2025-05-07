@@ -742,17 +742,17 @@ export default function Checkout() {
                   {shipping === 0 ? (
                     <span className="text-success">Free</span>
                   ) : (
-                    <span>${shipping.toFixed(2)}</span>
+                    <span>₱{shipping.toFixed(2)}</span>
                   )}
                 </div>
                 <div className="flex justify-between">
                   <span className="text-gray-600">Estimated Tax</span>
-                  <span>${tax.toFixed(2)}</span>
+                  <span>₱{tax.toFixed(2)}</span>
                 </div>
                 <Separator />
                 <div className="flex justify-between font-bold">
                   <span>Total</span>
-                  <span>${total.toFixed(2)}</span>
+                  <span>₱{total.toFixed(2)}</span>
                 </div>
               </div>
               
@@ -762,7 +762,7 @@ export default function Checkout() {
                   {shipping === 0 ? (
                     <span className="text-success">Free shipping applied!</span>
                   ) : (
-                    <span>Free shipping on orders over $99</span>
+                    <span>Free shipping on orders over ₱4,999</span>
                   )}
                 </p>
               </div>
