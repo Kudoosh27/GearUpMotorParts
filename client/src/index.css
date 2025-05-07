@@ -1,0 +1,93 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 0 0% 100%;
+  --foreground: 20 14.3% 4.1%;
+  --muted: 60 4.8% 95.9%;
+  --muted-foreground: 25 5.3% 44.7%;
+  --popover: 0 0% 100%;
+  --popover-foreground: 20 14.3% 4.1%;
+  --card: 0 0% 100%;
+  --card-foreground: 20 14.3% 4.1%;
+  --border: 20 5.9% 90%;
+  --input: 20 5.9% 90%;
+  --primary: 355 70% 50%; /* #D62828 */
+  --primary-foreground: 0 0% 100%;
+  --secondary: 210 100% 14.5%; /* #003049 */
+  --secondary-foreground: 0 0% 100%;
+  --accent: 30 100% 48%; /* #F77F00 */
+  --accent-foreground: 0 0% 100%;
+  --destructive: 0 84.2% 60.2%;
+  --destructive-foreground: 60 9.1% 97.8%;
+  --ring: 20 14.3% 4.1%;
+  --radius: 0.5rem;
+  --chart-1: 210 100% 14.5%;
+  --chart-2: 355 70% 50%;
+  --chart-3: 30 100% 48%;
+  --chart-4: 45 37.3% 81.6%;
+  --chart-5: 100 35% 40%;
+  --success: 142 53% 36%;
+  --neutral: 45 37.3% 81.6%; /* #EAE2B7 */
+  --sidebar-background: 210 100% 14.5%;
+  --sidebar-foreground: 0 0% 100%;
+  --sidebar-primary: 30 100% 48%;
+  --sidebar-primary-foreground: 0 0% 100%;
+  --sidebar-accent: 0 0% 100%;
+  --sidebar-accent-foreground: 210 100% 14.5%;
+  --sidebar-border: 0 0% 25%;
+  --sidebar-ring: 0 0% 100%;
+}
+
+.dark {
+  --background: 240 10% 3.9%;
+  --foreground: 0 0% 98%;
+  --muted: 240 3.7% 15.9%;
+  --muted-foreground: 240 5% 64.9%;
+  --popover: 240 10% 3.9%;
+  --popover-foreground: 0 0% 98%;
+  --card: 240 10% 3.9%;
+  --card-foreground: 0 0% 98%;
+  --border: 240 3.7% 15.9%;
+  --input: 240 3.7% 15.9%;
+  --primary: 355 70% 50%;
+  --primary-foreground: 0 0% 100%;
+  --secondary: 210 100% 14.5%;
+  --secondary-foreground: 0 0% 100%;
+  --accent: 30 100% 48%;
+  --accent-foreground: 0 0% 100%;
+  --destructive: 0 62.8% 30.6%;
+  --destructive-foreground: 0 0% 98%;
+  --ring: 240 4.9% 83.9%;
+  --radius: 0.5rem;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-sans antialiased bg-background text-foreground;
+  }
+}
+
+@layer utilities {
+  .product-card:hover .quick-add {
+    bottom: 0;
+  }
+}
+
+/* Font utility classes */
+.font-montserrat {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.font-inter {
+  font-family: 'Inter', sans-serif;
+}
+
+.font-roboto-condensed {
+  font-family: 'Roboto Condensed', sans-serif;
+}
