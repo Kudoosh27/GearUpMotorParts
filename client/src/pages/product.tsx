@@ -257,7 +257,7 @@ export default function Product() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 bg-gray-50 p-4 rounded-lg mb-6">
                 <div className="flex items-center">
                   <Truck className="h-5 w-5 text-gray-600 mr-2" />
-                  <span className="text-sm">Free shipping on orders over $99</span>
+                  <span className="text-sm">Free shipping on orders over ₱4,999</span>
                 </div>
                 <div className="flex items-center">
                   <ShieldCheck className="h-5 w-5 text-gray-600 mr-2" />
@@ -464,7 +464,7 @@ export default function Product() {
                         <Star key={j} className={`h-4 w-4 ${j < 4 ? 'fill-accent text-accent' : 'text-accent/30'}`} />
                       ))}
                     </div>
-                    <div className="text-primary font-bold">$29.99</div>
+                    <div className="text-primary font-bold">₱1,499.99</div>
                   </div>
                 </div>
               ))}

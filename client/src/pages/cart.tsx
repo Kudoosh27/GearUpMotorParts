@@ -97,7 +97,7 @@ export default function Cart() {
   };
 
   const subtotal = calculateSubtotal();
-  const shipping = subtotal >= 99 ? 0 : 10.99;
+  const shipping = subtotal >= 4999 ? 0 : 499;
   const tax = subtotal * 0.07; // 7% tax
   const total = subtotal + shipping + tax;
 
@@ -192,7 +192,7 @@ export default function Cart() {
                             <p className="text-sm text-gray-600">SKU: MCPT-{item.product?.id.toString().padStart(4, '0')}</p>
                           </div>
                         </TableCell>
-                        <TableCell>${item.product?.price.toFixed(2)}</TableCell>
+                        <TableCell>₱{item.product?.price.toFixed(2)}</TableCell>
                         <TableCell>
                           <div className="flex border border-gray-300 rounded-md w-32">
                             <Button 
@@ -219,7 +219,7 @@ export default function Cart() {
                           </div>
                         </TableCell>
                         <TableCell className="text-right font-medium">
-                          ${((item.product?.price || 0) * item.quantity).toFixed(2)}
+                          ₱{((item.product?.price || 0) * item.quantity).toFixed(2)}
                         </TableCell>
                         <TableCell>
                           <Button 
@@ -273,24 +273,24 @@ export default function Cart() {
               <div className="space-y-3 mb-6">
                 <div className="flex justify-between">
                   <span className="text-gray-600">Subtotal</span>
-                  <span>${subtotal.toFixed(2)}</span>
+                  <span>₱{subtotal.toFixed(2)}</span>
                 </div>
                 <div className="flex justify-between">
                   <span className="text-gray-600">Shipping</span>
                   {shipping === 0 ? (
                     <span className="text-success">Free</span>
                   ) : (
-                    <span>${shipping.toFixed(2)}</span>
+                    <span>₱{shipping.toFixed(2)}</span>
                   )}
                 </div>
                 <div className="flex justify-between">
                   <span className="text-gray-600">Estimated Tax</span>
-                  <span>${tax.toFixed(2)}</span>
+                  <span>₱{tax.toFixed(2)}</span>
                 </div>
                 <Separator />
                 <div className="flex justify-between font-bold">
                   <span>Total</span>
-                  <span>${total.toFixed(2)}</span>
+                  <span>₱{total.toFixed(2)}</span>
                 </div>
               </div>
               
