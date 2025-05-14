@@ -381,8 +381,7 @@ export class MemStorage implements IStorage {
       description: "Dual-band CDI for Raider 150 mods",
       price: 1200.0,
       originalPrice: null,
-      imageUrl:
-        "https://images.unsplash.com/photo-1600032062596-33918a0178e0?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400",
+      imageUrl: "/assets/images/products/Raider 150 Dual Band CDI.jpg",
       categoryId: electricalElectronicsCategory.id,
       inStock: true,
       isFeatured: true,
@@ -398,8 +397,7 @@ export class MemStorage implements IStorage {
       description: "OEM CDI for Kawasaki Fury",
       price: 580.0,
       originalPrice: null,
-      imageUrl:
-        "https://images.unsplash.com/photo-1600174646539-d0af726872fa?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400",
+      imageUrl: "/assets/images/products/Kawasaki Fury CDI.jpg",
       categoryId: electricalElectronicsCategory.id,
       inStock: true,
       isFeatured: false,
@@ -415,8 +413,7 @@ export class MemStorage implements IStorage {
       description: "Maintenance-free 4L-BS battery by Motolite",
       price: 980.0,
       originalPrice: null,
-      imageUrl:
-        "https://images.unsplash.com/photo-1603100749021-fb7b0802b8b5?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400",
+      imageUrl: "/assets/images/products/Motolite MF 4L-BS.jpg",
       categoryId: electricalElectronicsCategory.id,
       inStock: true,
       isFeatured: true,
