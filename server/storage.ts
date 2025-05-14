@@ -94,70 +94,70 @@ export class MemStorage implements IStorage {
       name: "Engine & Transmission",
       slug: "engine-transmission",
       description: "Essential components for your motorcycle's engine and transmission",
-      image: "https://pixabay.com/get/gbfe7935869651d9d6479791df6861b0d784bb7cdd28bdb4b76cb4a82c2200562d5f8d26f9be26d1c7a8ca82b46f4177e63e976d573a5e47215e11f32c6512099_1280.jpg"
+      image: "https://i.ibb.co/vJrjHCj/engine-transmission.jpg"
     });
 
     const electricalElectronicsCategory = this.createCategory({
       name: "Electrical & Electronics",
       slug: "electrical-electronics",
       description: "Electrical components and electronics for your motorcycle",
-      image: "https://pixabay.com/get/g960695d29bdea171a3136b9cac87ed42fcabd204a87f08b5a6088f0c2012d1f7112dc967be6e2b9bb13545fe471d9e53023d1222bedcc23af48b606bcfd5482a_1280.jpg"
+      image: "https://i.ibb.co/MpBcw6z/electrical-electronics.jpg"
     });
 
     const wheelsTiresCategory = this.createCategory({
       name: "Wheels & Tires",
       slug: "wheels-tires",
       description: "Premium wheels and tires for your motorcycle",
-      image: "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&h=300"
+      image: "https://i.ibb.co/Vx9y884/wheels-tires.jpg"
     });
 
     const brakingSystemCategory = this.createCategory({
       name: "Braking System",
       slug: "braking-system",
       description: "High-performance brake components for optimal stopping power",
-      image: "https://pixabay.com/get/ga1c876062eaf26a3bf54cc05558c5e73beb9af013731e576230b96e3fbd5e36bf5d52405de94934d84988932323175b2ead716a8c73b9b4e80203b51043a285f_1280.jpg"
+      image: "https://i.ibb.co/cXhhKZw/braking-system.jpg"
     });
 
     const bodyFrameCategory = this.createCategory({
       name: "Body & Frame",
       slug: "body-frame",
       description: "Body parts and frame components for your motorcycle",
-      image: "https://images.unsplash.com/photo-1558979159-2b18a4070a87?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&h=300"
+      image: "https://i.ibb.co/6FMG1Ht/body-frame.jpg"
     });
 
     const lightingIndicatorsCategory = this.createCategory({
       name: "Lighting & Indicators",
       slug: "lighting-indicators",
       description: "Lighting systems and indicators for your motorcycle",
-      image: "https://pixabay.com/get/g66c3aacccc6f1bae50a532f42d1ff0d1d7ea1064a57c8f8bc1d3cdb5ab2e0d9f5a4ec8dfbfd4abed9f7a0e2acb7f6c9c5f0d6b4fa54c71b6fa37f095c01fc61c_1280.jpg"
+      image: "https://i.ibb.co/NZHYY8L/lighting-indicators.jpg"
     });
 
     const fuelAirSystemCategory = this.createCategory({
       name: "Fuel & Air System",
       slug: "fuel-air-system",
       description: "Fuel and air system components for your motorcycle",
-      image: "https://images.unsplash.com/photo-1557863618-e26cae8b7de3?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&h=300"
+      image: "https://i.ibb.co/sVYNn4m/fuel-air-system.jpg"
     });
 
     const driveSystemCategory = this.createCategory({
       name: "Drive System",
       slug: "drive-system",
       description: "Drive system components for your motorcycle",
-      image: "https://pixabay.com/get/g14e7b9f30f98d6675d2a042c05c254f12dc5423dc7dbb3eaefc1be0a9e9387bf65be48d39cc3c2a5e11b51e0b4ccd1dd5e6fe85e0cd0c5f98f25d64d3e76e61f_1280.jpg"
+      image: "https://i.ibb.co/Jj4ndxW/drive-system.jpg"
     });
 
     const miscMaintenanceCategory = this.createCategory({
       name: "Miscellaneous & Maintenance",
       slug: "misc-maintenance",
       description: "Miscellaneous parts and maintenance supplies for your motorcycle",
-      image: "https://images.unsplash.com/photo-1530124566582-a618bc2615dc?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&h=300"
+      image: "https://i.ibb.co/9qQvndg/misc-maintenance.jpg"
     });
 
     const suspensionSteeringCategory = this.createCategory({
       name: "Suspension & Steering",
       slug: "suspension-steering",
       description: "Suspension and steering components for your motorcycle",
-      image: "https://pixabay.com/get/g86da22780b1da1df1137f30887b7aef915cd76c89f9815378ff9d1fec2515fa96d269e99bfae20940673b4df4477d981a5c36e52dd3f3877ca17d80c0bf3e42e_1280.jpg"
+      image: "https://i.ibb.co/x7XRdrD/suspension-steering.jpg"
     });
 
     // Add products from the provided data
@@ -167,7 +167,7 @@ export class MemStorage implements IStorage {
       description: "Standard spark plug for small motorcycles",
       price: 110.00,
       originalPrice: null,
-      imageUrl: "https://images.unsplash.com/photo-1580974852861-c381510bc98a?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400",
+      imageUrl: "https://i.ibb.co/wQ0pQWK/ngk-c7hsa-sparkplug.jpg",
       categoryId: engineTransmissionCategory.id,
       inStock: true,
       isFeatured: true,
@@ -183,7 +183,7 @@ export class MemStorage implements IStorage {
       description: "High-performance plug for enhanced ignition timing",
       price: 180.00,
       originalPrice: 200.00,
-      imageUrl: "https://images.unsplash.com/photo-1580974838243-3a2cfc868a40?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400",
+      imageUrl: "https://i.ibb.co/R0VR5Tt/ngk-cpr8ea-9-spark-plug.jpg",
       categoryId: engineTransmissionCategory.id,
       inStock: true,
       isFeatured: true,
@@ -199,7 +199,7 @@ export class MemStorage implements IStorage {
       description: "Durable spark plug for reliable engine starts",
       price: 150.00,
       originalPrice: null,
-      imageUrl: "https://images.unsplash.com/photo-1600508774634-4e11d34730e2?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400",
+      imageUrl: "https://i.ibb.co/kxpLW8Q/ngk-cr7e-spark-plug.jpg",
       categoryId: engineTransmissionCategory.id,
       inStock: true,
       isFeatured: false,
@@ -215,7 +215,7 @@ export class MemStorage implements IStorage {
       description: "OEM replacement piston kit for Rusi 125cc",
       price: 320.00,
       originalPrice: null,
-      imageUrl: "https://images.unsplash.com/photo-1586626097722-ea4b4dce5353?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400",
+      imageUrl: "https://i.ibb.co/vY2fpxG/rusi-125cc-piston-kit.jpg",
       categoryId: engineTransmissionCategory.id,
       inStock: true,
       isFeatured: true,
@@ -231,7 +231,7 @@ export class MemStorage implements IStorage {
       description: "Quality piston kit for Mio i 125 engine",
       price: 400.00,
       originalPrice: 450.00,
-      imageUrl: "https://images.unsplash.com/photo-1597758160257-0ba5085a1dcd?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400",
+      imageUrl: "https://i.ibb.co/RjzjbXq/mio-i-125-piston-kit.jpg",
       categoryId: engineTransmissionCategory.id,
       inStock: true,
       isFeatured: false,
@@ -247,7 +247,7 @@ export class MemStorage implements IStorage {
       description: "High-performance piston for Raider 150",
       price: 750.00,
       originalPrice: null,
-      imageUrl: "https://images.unsplash.com/photo-1489567861096-5b7ed9a202e9?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400",
+      imageUrl: "https://i.ibb.co/DtMb8c6/raider-150-piston-kit.jpg",
       categoryId: engineTransmissionCategory.id,
       inStock: true,
       isFeatured: true,
@@ -263,7 +263,7 @@ export class MemStorage implements IStorage {
       description: "Durable piston kit for Barako 175 engine",
       price: 600.00,
       originalPrice: null,
-      imageUrl: "https://images.unsplash.com/photo-1599719794476-1bda864d64f8?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400",
+      imageUrl: "https://i.ibb.co/WxkNW4Y/barako-175-piston-kit.jpg",
       categoryId: engineTransmissionCategory.id,
       inStock: true,
       isFeatured: false,
@@ -279,7 +279,7 @@ export class MemStorage implements IStorage {
       description: "Complete clutch set for Wave 125",
       price: 480.00,
       originalPrice: 520.00,
-      imageUrl: "https://images.unsplash.com/photo-1601612628452-9e99ced43524?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400",
+      imageUrl: "https://i.ibb.co/wWQ7hYR/wave-125-clutch-assembly.jpg",
       categoryId: engineTransmissionCategory.id,
       inStock: true,
       isFeatured: true,
@@ -295,7 +295,7 @@ export class MemStorage implements IStorage {
       description: "Performance clutch kit for Sniper 150",
       price: 750.00,
       originalPrice: null,
-      imageUrl: "https://images.unsplash.com/photo-1615397349754-cfa2066a298e?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400",
+      imageUrl: "https://i.ibb.co/GJrj2J3/sniper-150-clutch-set.jpg",
       categoryId: engineTransmissionCategory.id,
       inStock: true,
       isFeatured: false,
@@ -311,7 +311,7 @@ export class MemStorage implements IStorage {
       description: "Stock replacement clutch for Fury 125",
       price: 450.00,
       originalPrice: null,
-      imageUrl: "https://images.unsplash.com/photo-1599204606395-ede983886536?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400",
+      imageUrl: "https://i.ibb.co/C77NL4v/fury-125-clutch-assy.jpg",
       categoryId: engineTransmissionCategory.id,
       inStock: true,
       isFeatured: true,
@@ -327,7 +327,7 @@ export class MemStorage implements IStorage {
       description: "Racing CDI for enhanced Rusi performance",
       price: 350.00,
       originalPrice: 400.00,
-      imageUrl: "https://images.unsplash.com/photo-1559759021-fb6a7b0cbd36?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400",
+      imageUrl: "https://i.ibb.co/NpX68YQ/rusi-cdi-racing-blue-core.jpg",
       categoryId: electricalElectronicsCategory.id,
       inStock: true,
       isFeatured: true,
@@ -343,7 +343,7 @@ export class MemStorage implements IStorage {
       description: "BRT CDI upgrade for Mio i 125 tuning",
       price: 950.00,
       originalPrice: 1050.00,
-      imageUrl: "https://images.unsplash.com/photo-1605648959661-9018d05802e8?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400",
+      imageUrl: "https://i.ibb.co/PcdQrsB/mio-i-125-brt-cdi.jpg",
       categoryId: electricalElectronicsCategory.id,
       inStock: true,
       isFeatured: false,
@@ -359,7 +359,7 @@ export class MemStorage implements IStorage {
       description: "Dual-band CDI for Raider 150 mods",
       price: 1200.00,
       originalPrice: null,
-      imageUrl: "https://images.unsplash.com/photo-1600032062596-33918a0178e0?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400",
+      imageUrl: "https://i.ibb.co/wrWVb7L/raider-150-dual-band-cdi.jpg",
       categoryId: electricalElectronicsCategory.id,
       inStock: true,
       isFeatured: true,
@@ -375,7 +375,7 @@ export class MemStorage implements IStorage {
       description: "OEM CDI for Kawasaki Fury",
       price: 580.00,
       originalPrice: null,
-      imageUrl: "https://images.unsplash.com/photo-1600174646539-d0af726872fa?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400",
+      imageUrl: "https://i.ibb.co/Xt5hQGb/kawasaki-fury-cdi.jpg",
       categoryId: electricalElectronicsCategory.id,
       inStock: true,
       isFeatured: false,
@@ -391,7 +391,7 @@ export class MemStorage implements IStorage {
       description: "Maintenance-free 4L-BS battery by Motolite",
       price: 980.00,
       originalPrice: null,
-      imageUrl: "https://images.unsplash.com/photo-1603100749021-fb7b0802b8b5?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400",
+      imageUrl: "https://i.ibb.co/QX6R6nC/motolite-mf-4l-bs.jpg",
       categoryId: electricalElectronicsCategory.id,
       inStock: true,
       isFeatured: true,
@@ -406,7 +406,7 @@ export class MemStorage implements IStorage {
       name: "Michael R.",
       text: "Great quality parts at affordable prices. The NGK spark plugs I ordered worked perfectly in my Honda Wave.",
       rating: 5,
-      avatar: "https://images.unsplash.com/photo-1557862921-37829c790f19?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&h=300",
+      avatar: "https://i.ibb.co/TBHDrPv/customer-1.jpg",
       bikeModel: "Honda Wave 125"
     });
 
@@ -414,7 +414,7 @@ export class MemStorage implements IStorage {
       name: "Jessica T.",
       text: "The shipping was fast and the clutch assembly I purchased was exactly what I needed for my Yamaha Sniper.",
       rating: 4,
-      avatar: "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&h=300",
+      avatar: "https://i.ibb.co/CvFRQvX/customer-2.jpg",
       bikeModel: "Yamaha Sniper 150"
     });
 
@@ -422,7 +422,7 @@ export class MemStorage implements IStorage {
       name: "David L.",
       text: "I've tried many different CDI units for my Raider 150, but this dual band CDI is by far the best. The performance improvement is noticeable.",
       rating: 5,
-      avatar: "https://images.unsplash.com/photo-1552058544-f2b08422138a?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&h=300",
+      avatar: "https://i.ibb.co/F7Vc1mf/customer-3.jpg",
       bikeModel: "Suzuki Raider 150"
     });
 
@@ -430,7 +430,7 @@ export class MemStorage implements IStorage {
       name: "Anna M.",
       text: "The piston kit for my Mio was easy to install and runs smoothly. Will definitely shop here again.",
       rating: 5,
-      avatar: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&h=300",
+      avatar: "https://i.ibb.co/1v5fLrm/customer-4.jpg",
       bikeModel: "Yamaha Mio i 125"
     });
   }
