@@ -110,7 +110,7 @@ export class MemStorage implements IStorage {
       description:
         "Essential components for your motorcycle's engine and transmission",
       image:
-        "https://images.unsplash.com/photo-1682088646848-9422cc41e680?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=350",
+        "https://images.unsplash.com/photo-1682088646848-9422cc41e680?q=80&w=800&auto=format&fit=crop",
     });
 
     const electricalElectronicsCategory = this.createCategory({
@@ -118,7 +118,7 @@ export class MemStorage implements IStorage {
       slug: "electrical-electronics",
       description: "Electrical components and electronics for your motorcycle",
       image:
-        "https://images.unsplash.com/photo-1546861199-4a5f8aaefd46?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=350",
+        "https://images.unsplash.com/photo-1546861199-4a5f8aaefd46?q=80&w=800&auto=format&fit=crop",
     });
 
     const wheelsTiresCategory = this.createCategory({
@@ -126,7 +126,7 @@ export class MemStorage implements IStorage {
       slug: "wheels-tires",
       description: "Premium wheels and tires for your motorcycle",
       image:
-        "https://images.unsplash.com/photo-1504809286473-606134ffa5bc?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=350",
+        "https://images.unsplash.com/photo-1504809286473-606134ffa5bc?q=80&w=800&auto=format&fit=crop",
     });
 
     const brakingSystemCategory = this.createCategory({
@@ -135,7 +135,7 @@ export class MemStorage implements IStorage {
       description:
         "High-performance brake components for optimal stopping power",
       image:
-        "https://images.unsplash.com/photo-1623778066947-56f84020506d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=350",
+        "https://images.unsplash.com/photo-1623778066947-56f84020506d?q=80&w=800&auto=format&fit=crop",
     });
 
     const bodyFrameCategory = this.createCategory({
@@ -143,7 +143,7 @@ export class MemStorage implements IStorage {
       slug: "body-frame",
       description: "Body parts and frame components for your motorcycle",
       image:
-        "https://images.unsplash.com/photo-1599819811279-d5ad9cccf838?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=350",
+        "https://images.unsplash.com/photo-1599819811279-d5ad9cccf838?q=80&w=800&auto=format&fit=crop",
     });
 
     const lightingIndicatorsCategory = this.createCategory({
