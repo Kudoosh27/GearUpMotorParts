@@ -264,8 +264,7 @@ export class MemStorage implements IStorage {
       description: "High-performance piston for Raider 150",
       price: 750.0,
       originalPrice: null,
-      imageUrl:
-        "https://images.unsplash.com/photo-1587271407850-8d438ca9fdf2?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400",
+      imageUrl: "/assets/images/products/Raider 150 Piston Kit.jpg",
       categoryId: engineTransmissionCategory.id,
       inStock: true,
       isFeatured: true,
@@ -281,8 +280,7 @@ export class MemStorage implements IStorage {
       description: "Durable piston kit for Barako 175 engine",
       price: 600.0,
       originalPrice: null,
-      imageUrl:
-        "https://images.unsplash.com/photo-1599719794476-1bda864d64f8?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400",
+      imageUrl: "/assets/images/products/Barako 175 Piston Kit.jpg",
       categoryId: engineTransmissionCategory.id,
       inStock: true,
       isFeatured: false,
