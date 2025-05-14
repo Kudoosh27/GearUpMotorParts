@@ -94,28 +94,28 @@ export class MemStorage implements IStorage {
       name: "Engine & Transmission",
       slug: "engine-transmission",
       description: "Essential components for your motorcycle's engine and transmission",
-      image: "https://images.unsplash.com/photo-1589156229687-496a31ad1d1f?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=300"
+      image: "https://images.unsplash.com/photo-1682088646848-9422cc41e680?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=300"
     });
 
     const electricalElectronicsCategory = this.createCategory({
       name: "Electrical & Electronics",
       slug: "electrical-electronics",
       description: "Electrical components and electronics for your motorcycle",
-      image: "https://images.unsplash.com/photo-1574169208507-84376144848b?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=300"
+      image: "https://images.unsplash.com/photo-1546861199-4a5f8aaefd46?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=300"
     });
 
     const wheelsTiresCategory = this.createCategory({
       name: "Wheels & Tires",
       slug: "wheels-tires",
       description: "Premium wheels and tires for your motorcycle",
-      image: "https://images.unsplash.com/photo-1593693397690-362cb9666fc1?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=300"
+      image: "https://images.unsplash.com/photo-1504809286473-606134ffa5bc?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=300"
     });
 
     const brakingSystemCategory = this.createCategory({
       name: "Braking System",
       slug: "braking-system",
       description: "High-performance brake components for optimal stopping power",
-      image: "https://images.unsplash.com/photo-1575437355937-2e7e0051f39e?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=300"
+      image: "https://images.unsplash.com/photo-1623778066947-56f84020506d?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=300"
     });
 
     const bodyFrameCategory = this.createCategory({
@@ -129,35 +129,35 @@ export class MemStorage implements IStorage {
       name: "Lighting & Indicators",
       slug: "lighting-indicators",
       description: "Lighting systems and indicators for your motorcycle",
-      image: "https://images.unsplash.com/photo-1606073682124-cdb397595658?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=300"
+      image: "https://images.unsplash.com/photo-1597694526589-2437ff98e400?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=300"
     });
 
     const fuelAirSystemCategory = this.createCategory({
       name: "Fuel & Air System",
       slug: "fuel-air-system",
       description: "Fuel and air system components for your motorcycle",
-      image: "https://images.unsplash.com/photo-1594390488623-2bdd47f5f1b6?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=300"
+      image: "https://images.unsplash.com/photo-1583455585149-f380352de664?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=300"
     });
 
     const driveSystemCategory = this.createCategory({
       name: "Drive System",
       slug: "drive-system",
       description: "Drive system components for your motorcycle",
-      image: "https://images.unsplash.com/photo-1590255310226-f0bdd730d056?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=300"
+      image: "https://images.unsplash.com/photo-1613521505063-f4c2726dd825?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=300"
     });
 
     const miscMaintenanceCategory = this.createCategory({
       name: "Miscellaneous & Maintenance",
       slug: "misc-maintenance",
       description: "Miscellaneous parts and maintenance supplies for your motorcycle",
-      image: "https://images.unsplash.com/photo-1606521582180-403530379198?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=300"
+      image: "https://images.unsplash.com/photo-1538759619895-49daae839b70?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=300"
     });
 
     const suspensionSteeringCategory = this.createCategory({
       name: "Suspension & Steering",
       slug: "suspension-steering",
       description: "Suspension and steering components for your motorcycle",
-      image: "https://images.unsplash.com/photo-1604346509714-5e0ca518ec54?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=300"
+      image: "https://images.unsplash.com/photo-1590335398114-31f5c445b42d?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=300"
     });
 
     // Add products from the provided data
