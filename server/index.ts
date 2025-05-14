@@ -9,6 +9,7 @@ app.use(express.urlencoded({ extended: false }));
 
 // Serve static files from client/src/assets
 app.use('/assets/images/categories', express.static(path.join(process.cwd(), 'client/src/assets/images/categories')));
+app.use('/assets/images/products', express.static(path.join(process.cwd(), 'client/src/assets/images/products')));
 
 app.use((req, res, next) => {
   const start = Date.now();

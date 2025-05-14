@@ -184,8 +184,7 @@ export class MemStorage implements IStorage {
       description: "Standard spark plug for small motorcycles",
       price: 110.0,
       originalPrice: null,
-      imageUrl:
-        "https://images.unsplash.com/photo-1580974852861-c381510bc98a?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400",
+      imageUrl: "/assets/images/products/NGK C7HSA Sparkplug.jpg",
       categoryId: engineTransmissionCategory.id,
       inStock: true,
       isFeatured: true,
@@ -201,8 +200,7 @@ export class MemStorage implements IStorage {
       description: "High-performance plug for enhanced ignition timing",
       price: 180.0,
       originalPrice: 200.0,
-      imageUrl:
-        "https://images.unsplash.com/photo-1580974838243-3a2cfc868a40?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400",
+      imageUrl: "/assets/images/products/Kawasaki Fury CDI.jpg",
       categoryId: engineTransmissionCategory.id,
       inStock: true,
       isFeatured: true,
@@ -218,8 +216,7 @@ export class MemStorage implements IStorage {
       description: "Durable spark plug for reliable engine starts",
       price: 150.0,
       originalPrice: null,
-      imageUrl:
-        "https://images.unsplash.com/photo-1600508774634-4e11d34730e2?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400",
+      imageUrl: "/assets/images/products/Raider 150 Dual Band CDI.jpg",
       categoryId: engineTransmissionCategory.id,
       inStock: true,
       isFeatured: false,
