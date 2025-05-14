@@ -109,24 +109,21 @@ export class MemStorage implements IStorage {
       slug: "engine-transmission",
       description:
         "Essential components for your motorcycle's engine and transmission",
-      image:
-        "https://images.unsplash.com/photo-1682088646848-9422cc41e680?q=80&w=800&auto=format&fit=crop",
+      image: "/assets/images/categories/engine.avif",
     });
 
     const electricalElectronicsCategory = this.createCategory({
       name: "Electrical & Electronics",
       slug: "electrical-electronics",
       description: "Electrical components and electronics for your motorcycle",
-      image:
-        "https://images.unsplash.com/photo-1546861199-4a5f8aaefd46?q=80&w=800&auto=format&fit=crop",
+      image: "/assets/images/categories/electrical.avif",
     });
 
     const wheelsTiresCategory = this.createCategory({
       name: "Wheels & Tires",
       slug: "wheels-tires",
       description: "Premium wheels and tires for your motorcycle",
-      image:
-        "https://images.unsplash.com/photo-1504809286473-606134ffa5bc?q=80&w=800&auto=format&fit=crop",
+      image: "/assets/images/categories/wheels.avif",
     });
 
     const brakingSystemCategory = this.createCategory({
@@ -134,40 +131,35 @@ export class MemStorage implements IStorage {
       slug: "braking-system",
       description:
         "High-performance brake components for optimal stopping power",
-      image:
-        "https://images.unsplash.com/photo-1623778066947-56f84020506d?q=80&w=800&auto=format&fit=crop",
+      image: "/assets/images/categories/brakes.avif",
     });
 
     const bodyFrameCategory = this.createCategory({
       name: "Body & Frame",
       slug: "body-frame",
       description: "Body parts and frame components for your motorcycle",
-      image:
-        "https://images.unsplash.com/photo-1599819811279-d5ad9cccf838?q=80&w=800&auto=format&fit=crop",
+      image: "/assets/images/categories/engine.avif", // Using engine image as fallback for body & frame
     });
 
     const lightingIndicatorsCategory = this.createCategory({
       name: "Lighting & Indicators",
       slug: "lighting-indicators",
       description: "Lighting systems and indicators for your motorcycle",
-      image:
-        "https://images.unsplash.com/photo-1597694526589-2437ff98e400?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=350",
+      image: "/assets/images/categories/light.avif",
     });
 
     const fuelAirSystemCategory = this.createCategory({
       name: "Fuel & Air System",
       slug: "fuel-air-system",
       description: "Fuel and air system components for your motorcycle",
-      image:
-        "https://images.unsplash.com/photo-1583455585149-f380352de664?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=350",
+      image: "/assets/images/categories/fuel.avif",
     });
 
     const driveSystemCategory = this.createCategory({
       name: "Drive System",
       slug: "drive-system",
       description: "Drive system components for your motorcycle",
-      image:
-        "https://images.unsplash.com/photo-1613521505063-f4c2726dd825?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=350",
+      image: "/assets/images/categories/drive system.avif",
     });
 
     const miscMaintenanceCategory = this.createCategory({
@@ -175,16 +167,14 @@ export class MemStorage implements IStorage {
       slug: "misc-maintenance",
       description:
         "Miscellaneous parts and maintenance supplies for your motorcycle",
-      image:
-        "https://images.unsplash.com/photo-1538759619895-49daae839b70?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=350",
+      image: "/assets/images/categories/oil.avif",
     });
 
     const suspensionSteeringCategory = this.createCategory({
       name: "Suspension & Steering",
       slug: "suspension-steering",
       description: "Suspension and steering components for your motorcycle",
-      image:
-        "https://images.unsplash.com/photo-1590335398114-31f5c445b42d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=350",
+      image: "/assets/images/categories/suspension.avif",
     });
 
     // Add products from the provided data

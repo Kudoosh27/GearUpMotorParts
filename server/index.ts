@@ -1,10 +1,14 @@
 import express, { type Request, Response, NextFunction } from "express";
 import { registerRoutes } from "./routes";
 import { setupVite, serveStatic, log } from "./vite";
+import path from "path";
 
 const app = express();
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
+
+// Serve static files from client/src/assets
+app.use('/assets/images/categories', express.static(path.join(process.cwd(), 'client/src/assets/images/categories')));
 
 app.use((req, res, next) => {
   const start = Date.now();
