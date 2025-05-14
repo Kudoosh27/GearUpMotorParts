@@ -94,70 +94,70 @@ export class MemStorage implements IStorage {
       name: "Engine & Transmission",
       slug: "engine-transmission",
       description: "Essential components for your motorcycle's engine and transmission",
-      image: "https://images.unsplash.com/photo-1591815079573-b584ff490de5?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=300"
+      image: "https://images.unsplash.com/photo-1589156229687-496a31ad1d1f?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=300"
     });
 
     const electricalElectronicsCategory = this.createCategory({
       name: "Electrical & Electronics",
       slug: "electrical-electronics",
       description: "Electrical components and electronics for your motorcycle",
-      image: "https://images.unsplash.com/photo-1613492636024-9430710a84f3?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=300"
+      image: "https://images.unsplash.com/photo-1574169208507-84376144848b?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=300"
     });
 
     const wheelsTiresCategory = this.createCategory({
       name: "Wheels & Tires",
       slug: "wheels-tires",
       description: "Premium wheels and tires for your motorcycle",
-      image: "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=300"
+      image: "https://images.unsplash.com/photo-1593693397690-362cb9666fc1?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=300"
     });
 
     const brakingSystemCategory = this.createCategory({
       name: "Braking System",
       slug: "braking-system",
       description: "High-performance brake components for optimal stopping power",
-      image: "https://images.unsplash.com/photo-1585087905628-5e3d601c124f?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=300"
+      image: "https://images.unsplash.com/photo-1575437355937-2e7e0051f39e?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=300"
     });
 
     const bodyFrameCategory = this.createCategory({
       name: "Body & Frame",
       slug: "body-frame",
       description: "Body parts and frame components for your motorcycle",
-      image: "https://images.unsplash.com/photo-1558979159-2b18a4070a87?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=300"
+      image: "https://images.unsplash.com/photo-1599819811279-d5ad9cccf838?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=300"
     });
 
     const lightingIndicatorsCategory = this.createCategory({
       name: "Lighting & Indicators",
       slug: "lighting-indicators",
       description: "Lighting systems and indicators for your motorcycle",
-      image: "https://images.unsplash.com/photo-1623282033815-40b05d96c903?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=300"
+      image: "https://images.unsplash.com/photo-1606073682124-cdb397595658?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=300"
     });
 
     const fuelAirSystemCategory = this.createCategory({
       name: "Fuel & Air System",
       slug: "fuel-air-system",
       description: "Fuel and air system components for your motorcycle",
-      image: "https://images.unsplash.com/photo-1557863618-e26cae8b7de3?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=300"
+      image: "https://images.unsplash.com/photo-1594390488623-2bdd47f5f1b6?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=300"
     });
 
     const driveSystemCategory = this.createCategory({
       name: "Drive System",
       slug: "drive-system",
       description: "Drive system components for your motorcycle",
-      image: "https://images.unsplash.com/photo-1597347025162-9b7334258ba3?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=300"
+      image: "https://images.unsplash.com/photo-1590255310226-f0bdd730d056?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=300"
     });
 
     const miscMaintenanceCategory = this.createCategory({
       name: "Miscellaneous & Maintenance",
       slug: "misc-maintenance",
       description: "Miscellaneous parts and maintenance supplies for your motorcycle",
-      image: "https://images.unsplash.com/photo-1530124566582-a618bc2615dc?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=300"
+      image: "https://images.unsplash.com/photo-1606521582180-403530379198?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=300"
     });
 
     const suspensionSteeringCategory = this.createCategory({
       name: "Suspension & Steering",
       slug: "suspension-steering",
       description: "Suspension and steering components for your motorcycle",
-      image: "https://images.unsplash.com/photo-1614859538914-77184c891bd7?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=300"
+      image: "https://images.unsplash.com/photo-1604346509714-5e0ca518ec54?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=300"
     });
 
     // Add products from the provided data
