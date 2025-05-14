@@ -232,8 +232,7 @@ export class MemStorage implements IStorage {
       description: "OEM replacement piston kit for Rusi 125cc",
       price: 320.0,
       originalPrice: null,
-      imageUrl:
-        "https://images.unsplash.com/photo-1586626097722-ea4b4dce5353?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400",
+      imageUrl: "/assets/images/products/Mio i 125 Piston Kit.jpg",
       categoryId: engineTransmissionCategory.id,
       inStock: true,
       isFeatured: true,
@@ -249,8 +248,7 @@ export class MemStorage implements IStorage {
       description: "Quality piston kit for Mio i 125 engine",
       price: 400.0,
       originalPrice: 450.0,
-      imageUrl:
-        "https://images.unsplash.com/photo-1597758160257-0ba5085a1dcd?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400",
+      imageUrl: "/assets/images/products/Mio i 125 Piston Kit.jpg",
       categoryId: engineTransmissionCategory.id,
       inStock: true,
       isFeatured: false,
@@ -300,8 +298,7 @@ export class MemStorage implements IStorage {
       description: "Complete clutch set for Wave 125",
       price: 480.0,
       originalPrice: 520.0,
-      imageUrl:
-        "https://images.unsplash.com/photo-1601612628452-9e99ced43524?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400",
+      imageUrl: "/assets/images/products/Fury 125 Clutch Assy.jpg",
       categoryId: engineTransmissionCategory.id,
       inStock: true,
       isFeatured: true,
@@ -334,8 +331,7 @@ export class MemStorage implements IStorage {
       description: "Stock replacement clutch for Fury 125",
       price: 450.0,
       originalPrice: null,
-      imageUrl:
-        "https://images.unsplash.com/photo-1572465213253-6c8f9d9e11a5?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400",
+      imageUrl: "/assets/images/products/Fury 125 Clutch Assy.jpg",
       categoryId: engineTransmissionCategory.id,
       inStock: true,
       isFeatured: true,
