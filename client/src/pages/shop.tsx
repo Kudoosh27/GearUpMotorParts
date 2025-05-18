@@ -48,7 +48,6 @@ export default function Shop() {
   const { data: products = [], isLoading } = useQuery<Product[]>({
     queryKey: ['/api/products', filters, searchQuery],
     queryFn: async () => {
-      let url = '/api/products?';
       const queryParams = new URLSearchParams();
       
       if (filters.categoryId) {
@@ -63,20 +62,18 @@ export default function Shop() {
         queryParams.append('search', searchQuery);
       }
       
+      if (filters.priceRange) {
+        queryParams.append('minPrice', filters.priceRange[0].toString());
+        queryParams.append('maxPrice', filters.priceRange[1].toString());
+      }
+      
       return fetch(`/api/products?${queryParams.toString()}`)
         .then(res => res.json());
     },
   });
   
-  
-  // Filter products by price range
-  const filteredProducts = products.filter(product => 
-    product.price >= filters.priceRange[0] && 
-    product.price <= filters.priceRange[1]
-  );
-  
   // Sort products based on selection
-  const sortedProducts = [...filteredProducts].sort((a, b) => {
+  const sortedProducts = [...products].sort((a, b) => {
     switch (sortBy) {
       case 'price-low':
         return a.price - b.price;
