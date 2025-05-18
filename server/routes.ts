@@ -37,18 +37,14 @@ export async function registerRoutes(app: Express): Promise<Server> {
       inStock?: boolean;
     } = {};
     
-    if (categoryId) {
-      const parsedId = parseInt(categoryId as string);
-      if (!isNaN(parsedId)) {
-        options.categoryId = parsedId;
-      }
-    }
-    if (featured === "true") options.featured = true;
-    if (inStock === "true") options.inStock = true;
+    if (categoryId) options.categoryId = parseInt(categoryId as string);
+    if (featured) options.featured = featured === "true";
     if (search) options.search = search as string;
+    if (inStock !== undefined) options.inStock = inStock === "true";
     
     try {
       const products = await storage.getProducts(options);
+      console.log('Fetched products:', products.length);
       res.json(products);
     } catch (error) {
       console.error('Error fetching products:', error);
