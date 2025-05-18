@@ -126,41 +126,6 @@ export default function Header() {
         </div>
       </div>
       
-      {/* Navigation */}
-      <nav className="bg-gray-100 border-y border-gray-200">
-        <div className="container mx-auto px-4">
-          <div className="hidden md:flex items-center space-x-8 font-medium text-gray-800 py-3">
-            {categories.map((category) => (
-              <div key={category.id} className="group relative">
-                <Link href={`/shop/${category.slug}`} className="flex items-center hover:text-primary transition">
-                  {category.name}
-                  <ChevronDown className="ml-1 h-4 w-4" />
-                </Link>
-                <div className="absolute left-0 top-full w-60 bg-white shadow-lg z-20 hidden group-hover:block rounded-b-lg">
-                  <div className="p-4">
-                    <Link href={`/shop/${category.slug}`} className="block py-1 font-medium text-primary transition">
-                      View All {category.name} Products
-                    </Link>
-                  </div>
-                </div>
-              </div>
-            ))}
-            <Link href="/shop/deals" className="text-primary font-semibold hover:text-primary/80 transition">Deals</Link>
-          </div>
-          
-          {/* Mobile Menu Button */}
-          <div className="md:hidden py-3 flex justify-between items-center">
-            <Button 
-              variant="ghost" 
-              className="text-gray-800 hover:text-primary p-1" 
-              onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-            >
-              <Menu className="h-6 w-6" />
-            </Button>
-            <Link href="/shop/deals" className="text-primary font-semibold hover:text-primary/80 transition">Deals</Link>
-          </div>
-        </div>
-      </nav>
       
       {/* Mobile Menu */}
       {isMobileMenuOpen && (
