@@ -125,7 +125,21 @@ export default function Header() {
           </div>
         </div>
       </div>
-      
+    
+          
+          {/* Mobile Menu Button */}
+          <div className="md:hidden py-3 flex justify-between items-center">
+            <Button 
+              variant="ghost" 
+              className="text-gray-800 hover:text-primary p-1" 
+              onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+            >
+              <Menu className="h-6 w-6" />
+            </Button>
+            <Link href="/shop/deals" className="text-primary font-semibold hover:text-primary/80 transition">Deals</Link>
+          </div>
+        </div>
+      </nav>
       
       {/* Mobile Menu */}
       {isMobileMenuOpen && (
