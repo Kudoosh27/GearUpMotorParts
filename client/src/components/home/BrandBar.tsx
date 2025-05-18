@@ -3,11 +3,11 @@ import { Link } from 'wouter';
 
 export default function BrandBar() {
   const brands = [
-    { name: 'Honda', image: '/src/assets/images/categories/Honda_Logo.jpg' },
-    { name: 'Yamaha', image: '/src/assets/images/categories/yamaha_3d-logo_brandlogos.net_iwtkb.png' },
-    { name: 'Kawasaki', image: '/src/assets/images/categories/kawasaki.png' },
-    { name: 'Suzuki', image: '/src/assets/images/categories/suzuki.png' },
-    { name: 'Rusi', image: '/src/assets/images/categories/images (16).png' },
+    { name: 'Honda', image: '/assets/images/categories/Honda_Logo.jpg' },
+    { name: 'Yamaha', image: '/assets/images/categories/yamaha_3d-logo_brandlogos.net_iwtkb.png' },
+    { name: 'Kawasaki', image: '/assets/images/categories/kawasaki.png' },
+    { name: 'Suzuki', image: '/assets/images/categories/suzuki.png' },
+    { name: 'Rusi', image: '/assets/images/categories/images (16).png' },
   ];
 
   return (
