@@ -46,7 +46,7 @@ export default function Shop() {
   
   // Fetch products with filters
   const { data: products = [], isLoading } = useQuery<Product[]>({
-    queryKey: ['/api/products', filters, searchQuery],
+    queryKey: ['/api/products', { ...filters, searchQuery }],
     queryFn: async () => {
       const queryParams = new URLSearchParams();
       
@@ -67,9 +67,13 @@ export default function Shop() {
         queryParams.append('maxPrice', filters.priceRange[1].toString());
       }
       
-      return fetch(`/api/products?${queryParams.toString()}`)
-        .then(res => res.json());
+      const response = await fetch(`/api/products?${queryParams.toString()}`);
+      if (!response.ok) {
+        throw new Error('Failed to fetch products');
+      }
+      return response.json();
     },
+    enabled: !!filters.categoryId || !!searchQuery || filters.inStock !== undefined,
   });
   
   // Sort products based on selection
