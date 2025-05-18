@@ -1,3 +1,4 @@
+
 import { useState } from 'react';
 import { Link } from 'wouter';
 import { ChevronDown, ChevronUp } from 'lucide-react';
@@ -37,14 +38,12 @@ export default function MobileMenu({ categories, onClose }: MobileMenuProps) {
             </button>
             {expandedCategory === category.id && (
               <div className="pl-4 pt-2 space-y-2">
-                <Link href={`/shop/${category.slug}`} className="block py-1 hover:text-primary transition">
-                  View All {category.name} Products
-                </Link> 
+                <Link 
                   href={`/shop/${category.slug}`} 
                   className="block py-1 font-medium text-primary transition"
                   onClick={onClose}
                 >
-                  View All {category.name}
+                  View All {category.name} Products
                 </Link>
               </div>
             )}
