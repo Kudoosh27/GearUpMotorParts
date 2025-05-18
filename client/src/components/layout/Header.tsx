@@ -79,8 +79,10 @@ export default function Header() {
         <div className="flex flex-col md:flex-row justify-between items-center gap-4">
           {/* Logo */}
           <Link href="/" className="text-2xl font-bold font-montserrat text-secondary flex items-center">
-            <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-primary mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+            <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-primary mr-2" viewBox="0 0 100 100">
+              <path fill="currentColor" d="M50 0a50 50 0 1 0 0 100A50 50 0 0 0 50 0zm-5 75c-8.284 0-15-6.716-15-15 0-8.284 6.716-15 15-15 8.284 0 15 6.716 15 15 0 8.284-6.716 15-15 15z" opacity=".2"/>
+              <path fill="#228B22" d="M85 50c0-19.33-15.67-35-35-35s-35 15.67-35 35c0 19.33 15.67 35 35 35s35-15.67 35-35zm-60 0c0-13.785 11.215-25 25-25s25 11.215 25 25-11.215 25-25 25-25-11.215-25-25z"/>
+              <path fill="#FF0000" d="M65 45c-2.76 0-5 2.24-5 5s2.24 5 5 5 5-2.24 5-5-2.24-5-5-5zm-30 0c-2.76 0-5 2.24-5 5s2.24 5 5 5 5-2.24 5-5-2.24-5-5-5z"/>
             </svg>
             <span>GearUp <span className="text-primary">Auto Parts</span></span>
           </Link>
