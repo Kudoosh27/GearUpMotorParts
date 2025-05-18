@@ -4,7 +4,7 @@ import { Link } from 'wouter';
 export default function BrandBar() {
   const brands = [
     { name: 'Honda', image: '/assets/images/categories/Honda_Logo.jpg' },
-    { name: 'Yamaha', image: '/assets/images/categories/yamaha_3d-logo_brandlogos.net_iwtkb.png' },
+    { name: 'Yamaha', image: '/assets/images/categories/yamaha logo.jpg' },
     { name: 'Kawasaki', image: '/assets/images/categories/kawasaki.png' },
     { name: 'Suzuki', image: '/assets/images/categories/suzuki.png' },
     { name: 'Rusi', image: '/assets/images/categories/images (16).png' },
