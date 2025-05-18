@@ -79,7 +79,7 @@ export default function Header() {
         <div className="flex flex-col md:flex-row justify-between items-center gap-4">
           {/* Logo */}
           <Link href="/" className="text-2xl font-bold font-montserrat text-secondary flex items-center">
-            <img src="/assets/images/categories/image_1747203364257.png" alt="GearUp Logo" className="h-8 w-8 object-contain mr-2" />
+            <img src="/src/assets/images/categories/shop-logo.jpg" alt="GearUp Logo" className="h-8 w-8 object-contain mr-2" />
             <span>GearUp <span className="text-primary">Auto Parts</span></span>
           </Link>
           
