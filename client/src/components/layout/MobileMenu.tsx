@@ -37,12 +37,9 @@ export default function MobileMenu({ categories, onClose }: MobileMenuProps) {
             </button>
             {expandedCategory === category.id && (
               <div className="pl-4 pt-2 space-y-2">
-                <Link href={`/shop/${category.slug}/item1`} className="block py-1 hover:text-primary transition">Item 1</Link>
-                <Link href={`/shop/${category.slug}/item2`} className="block py-1 hover:text-primary transition">Item 2</Link>
-                <Link href={`/shop/${category.slug}/item3`} className="block py-1 hover:text-primary transition">Item 3</Link>
-                <Link href={`/shop/${category.slug}/item4`} className="block py-1 hover:text-primary transition">Item 4</Link>
-                <Link href={`/shop/${category.slug}/item5`} className="block py-1 hover:text-primary transition">Item 5</Link>
-                <Link 
+                <Link href={`/shop/${category.slug}`} className="block py-1 hover:text-primary transition">
+                  View All {category.name} Products
+                </Link> 
                   href={`/shop/${category.slug}`} 
                   className="block py-1 font-medium text-primary transition"
                   onClick={onClose}

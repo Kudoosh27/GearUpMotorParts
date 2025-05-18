@@ -139,14 +139,9 @@ export default function Header() {
                   <ChevronDown className="ml-1 h-4 w-4" />
                 </Link>
                 <div className="absolute left-0 top-full w-60 bg-white shadow-lg z-20 hidden group-hover:block rounded-b-lg">
-                  <div className="p-4 space-y-2">
-                    <Link href={`/shop/${category.slug}/item1`} className="block py-1 hover:text-primary transition">Item 1</Link>
-                    <Link href={`/shop/${category.slug}/item2`} className="block py-1 hover:text-primary transition">Item 2</Link>
-                    <Link href={`/shop/${category.slug}/item3`} className="block py-1 hover:text-primary transition">Item 3</Link>
-                    <Link href={`/shop/${category.slug}/item4`} className="block py-1 hover:text-primary transition">Item 4</Link>
-                    <Link href={`/shop/${category.slug}/item5`} className="block py-1 hover:text-primary transition">Item 5</Link>
+                  <div className="p-4">
                     <Link href={`/shop/${category.slug}`} className="block py-1 font-medium text-primary transition">
-                      View All {category.name}
+                      View All {category.name} Products
                     </Link>
                   </div>
                 </div>
