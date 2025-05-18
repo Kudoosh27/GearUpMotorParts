@@ -68,6 +68,7 @@ export default function Shop() {
     },
   });
   
+  
   // Filter products by price range
   const filteredProducts = products.filter(product => 
     product.price >= filters.priceRange[0] && 

@@ -312,8 +312,7 @@ export class MemStorage implements IStorage {
       description: "Performance clutch kit for Sniper 150",
       price: 750.0,
       originalPrice: null,
-      imageUrl:
-        "https://images.unsplash.com/photo-1615397349754-cfa2066a298e?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400",
+      imageUrl: "/assets/images/products/Sniper 150 Clutch Set.jpg",
       categoryId: engineTransmissionCategory.id,
       inStock: true,
       isFeatured: false,
@@ -345,8 +344,7 @@ export class MemStorage implements IStorage {
       description: "Racing CDI for enhanced Rusi performance",
       price: 350.0,
       originalPrice: 400.0,
-      imageUrl:
-        "https://images.unsplash.com/photo-1559759021-fb6a7b0cbd36?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400",
+      imageUrl: "/assets/images/products/Rusi CDI Racing Blue Core.jpg",
       categoryId: electricalElectronicsCategory.id,
       inStock: true,
       isFeatured: true,
@@ -362,8 +360,7 @@ export class MemStorage implements IStorage {
       description: "BRT CDI upgrade for Mio i 125 tuning",
       price: 950.0,
       originalPrice: 1050.0,
-      imageUrl:
-        "https://images.unsplash.com/photo-1605648959661-9018d05802e8?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400",
+      imageUrl: "/assets/images/products/Mio i 125 BRT CDI.jpg",
       categoryId: electricalElectronicsCategory.id,
       inStock: true,
       isFeatured: false,
